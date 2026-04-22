@@ -1,0 +1,15 @@
+// ltl-backpressure/main.ltl
+//
+// Token-bucket + leaky-bucket backpressure primitives.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-backpressure v0.1.0")
+    io::println("Token-bucket + leaky-bucket backpressure primitives.")
+    0
+}
